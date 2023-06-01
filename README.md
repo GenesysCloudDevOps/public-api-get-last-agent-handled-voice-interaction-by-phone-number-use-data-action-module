@@ -6,7 +6,7 @@ Shown below is an example of how to configure the remote module.
 
 ```hcl
 module "data_action" {
-    source             = "git::https://github.com/GenesysCloudDevOps/public-api-get-last-agent-who-handled-a-voice-interaction-by-phone-number-use-within-script-data-action-module.git?ref=v1.0.0"
+    source             = "git::https://github.com/GenesysCloudDevOps/public-api-get-last-agent-handled-voice-interaction-by-phone-number-use-data-action-module.git?ref=v1.0.0"
     action_name        = "Get Last Agent Who Handled a Voice Interaction by Phone Number"
     action_category    = "${module.gc_integration.integration_name}"
     integration_id     = "${module.gc_integration.integration_id}"
